@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.cabeçalho > a {
+    text-decoration: none;/*retira a linha de baixodo texto clicavel*/
+    color: aliceblue;/* muda a cor do texto*/
+    font-size: 1.2rem;/*aumenta a fonte*/
+}
+
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 40px;
+    flex-wrap: wrap;
+    align-items: center; /*para  o itrem ficar adptavel em telas menores*/
+    background-color: brown;
+}
+.menu {
+    display: flex;/**/
+}
+.menu >li { /* aqui chamamos nossas LI para estilizaçao*/
+    margin-left: 10px;/* aqqui alteramos o espaçamento da margem a esquerda sa listas*/
+
+}
+.menu > li > a { /* aqui chamamos nossa tag de link*/
+    padding: 10px;/*alteraçao de preencimento*/
+    background-color: rgb (17, 151, 218); /*cor de fundo*/
+    display: block;/*responsavel por habilitar os itens em bloco*/
+    color: white;/*cor da fonte*/
+    text-decoration: none;/* decoraçao de texto: nao*/
+
+
+}
+h1 { 
+    text-align: center;/* alinhamos ao centro*/
+    margin: 100px;/*margim de 50 pixels para todos os lados*/
+
+}
+img {
+ display: block;
+ max-width: 100%;
+}
+ 
+.flex {
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;/*espaçamento das margens laterais superior r inferior*/
+    
+
+}
+
+.templates {
+    background-color: rgb(58,255,255);
+    text-align: justify;
+    padding: 30px;
+}
+    
+
+.rodape {
+    display: flex;/* responsalvel por alinhar os itens lado a lado*/
+    justify-content: space-between;/* responsalvel por espaçar os itens (inicio ao fim)*/
+    padding: 60px; /*preencimento do rodape */
+    background-color: black;/**/
+    align-items: center;/**/
+    flex-wrap: wrap;/**/
+
+}
+
+.rodape > a :hover {
+    color: aqua;
+    transition: 1s;
+}
+
+.rodape > a {
+    text-decoration: none; /*estamos desabilitando a decoraçao do texo*/
+    color: white; /* mudamos a cor da letra para branco*/
+    margin-right: 10px; /* espaçamento entre as tags "a"*/
+}
+
+.menu > li > i { /*chamamos nossa icon para esyilizaçao*/
+    background-color: aqua; /*cor de fundo da caixa*/
+    color: brown;
+    padding: 10px; /*tamanho do preenchimento da caixa azul*/
+}
